@@ -17,7 +17,6 @@ M.disabled = {
 
 M.general = {
   n = {
-    -- [";"] = { ":", "enter command mode", opts = { nowait = true } },
     ["<Esc>"] = { ":noh <CR>", "Clear highlights", opts = { silent = true } },
 
     -- Better vertical navigation
